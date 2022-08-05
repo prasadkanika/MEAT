@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meat online tirupati|iraicci">
+    <meta name="keywords" content="meat, tirupati, deliver, quality,online">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cart</title>
+    <link rel='shortcut icon ' type='image/x-icon' href='logox.png'>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js'></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script async="async" src="https://static.mobilemonkey.com/js/100785561968371.js"></script>
+    <script>
+    window.mmDataLayer = window.mmDataLayer || [];
+    function mmData(o) { mmDataLayer.push(o); }
+    </script>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+
+
+        <div class="offcanvas__logo">
+            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header__top__inner">
+                            <b style="font-size:3em;padding-top:50px;">IRAICCI</b>
+                            <div class="header__top__right p-2">
+                                <a href="./index.html"><img src="img/logo.png" alt="" style="height:160px"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas__open"><i class="fa fa-bars"></i></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <div ng-app='myapp' class='p-5'>
+        <div ng-controller='myc' >
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="breadcrumb__text">
+                        <h2>place your order</h2><br/><br/>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="breadcrumb__links">
+                        <a href="./index.html">Home</a>
+                        <span>Shopping cart</span><br/><br/><br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+            Full Name:<input type='text' ng-model='fname' required><br/><br/><br/>
+            Item:<input type='text' ng-model='item' required>(check home page form item name <b>like chicken skinless</b>)<br/><br/><br/>
+            Quantity:<input type='text' ng-model='qua' required> (500gms/1kg/1.5kg/2kg...)<br/><br/><br/>
+            <!--Delivery hours:<input type='text' ng-model='session' required>(FN/AN)[FN: Morning, AN:Evening(4:30pm to 6:00pm)]<br/><br/><br/>-->
+
+
+            Address:<input type='text' ng-model='add' required><br/><br/><br/>
+            <b style='color:red'>Note: The price of respective item must be paid using phonepay or goooglepay to 9989122809<br> and send screenshot then only we consider your order  </b>
+            <div class="container p-5">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-8">
+                            <a href="https://api.whatsapp.com/send?phone=919989122809&amp;text= Hi my name is {{fname}} .i want *{{item}}* of {{qua}} to {{add}} at {{session}}:)" class="primary-btn">Place the order</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>ORDERS DELIVER ONLY SUNDAY</h6>
+                        <ul>
+                            <li>we deliver before 09:00 am</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <h2 style='color:white'>IRAICCI</h2>
+                        </div>
+                        <p>A meat start up with idea of
+                            "deliver premum Quality meat" and make life's healthier.</p>
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/prasad.kanika"><i class="fa fa-facebook"></i></a>
+                            <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                            <a href="https://instagram.com/iraicci?igshid=uzp2ny02k325"><i class="fa fa-instagram"></i></a>
+                            <!--<a href="#"><i class="fa fa-youtube-play"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__newslatter">
+                        <h6>Support</h6>
+                        <p>Drop a mail for any quires.</p>
+
+                            <a href='mailto:support@prasad11.in'><button type="button"><i class="fa fa-send-o"></i></button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p class="copyright__text text-white"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                      </p>
+                  </div>
+                <!--  <div class="col-lg-5">
+                    <div class="copyright__widget">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- Search Begin -->
+<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search End -->
+<script>
+    var app=angular.module('myapp',[])
+    app.controller('myc',function($scope){
+        $scope.fname=''
+        $scope.item=''
+        $scope.qua=''
+        $scope.session=''
+        /*$scope.names = [
+            {name:'Jani',country:'Norway'},
+            {name:'Carl',country:'Sweden'},
+            {name:'Margareth',country:'England'},
+            {name:'Hege',country:'Norway'},
+            {name:'Joe',country:'Denmark'},
+            {name:'Gustav',country:'Sweden'},
+            {name:'Birgit',country:'Denmark'},
+            {name:'Mary',country:'England'},
+            {name:'Kai',country:'Norway'}
+        ];*/
+    });
+</script>
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/jquery.barfiller.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

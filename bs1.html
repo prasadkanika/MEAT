@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>bs1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/834b138f24.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.hero__item {
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.hero__text {
+  text-align: center;
+  background: #ffffff;
+  padding: 65px 70px 70px;
+  position: relative;
+}
+.hero__text:after {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+  border: 1px dashed #f08632;
+  content: "";
+  opacity: 0.3;
+}
+.hero__text h2 {
+  font-size: 46px;
+  color: #111111;
+  line-height: 60px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 18px;
+  position: relative;
+  top: 100px;
+  opacity: 0;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+.hero__text .primary-btn {
+  position: relative;
+  top: 100px;
+  opacity: 0;
+  -webkit-transition: all, 0.6s;
+  -o-transition: all, 0.6s;
+  transition: all, 0.6s;
+}
+
+.hero__slider.owl-carousel .owl-item.active .hero__text h2 {
+  top: 0;
+  opacity: 1;
+}
+.hero__slider.owl-carousel .owl-item.active .hero__text .primary-btn {
+  top: 0;
+  opacity: 1;
+}
+.hero__slider.owl-carousel .owl-nav button {
+  height: 50px;
+  width: 50px;
+  background: rgba(17, 17, 17, 0.5);
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  margin-top: -15px;
+}
+.hero__slider.owl-carousel .owl-nav button.owl-next {
+  left: auto;
+  right: 30px;
+}
+
+</style>
+<body>
+    <nav class="navbar-fluid  bg-primary navbar-dark navbar-expand-sm ">
+
+        <ul class='navbar-nav'>
+            <li class='nav-item '><a href='#' class='nav-link'>Home</a></li>
+            <li class='nav-item'><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#con">Contact us</button><br/></li>
+            <li class='nav-item '>
+            </li>
+        </ul>
+        <div class='jumbotron text-center'>
+            <h1>LAMBS AND TIGERS</h1>
+            <span class='text-muted'>A game originated in TamilNadu also called <mark>AADUPULIATTAM</mark></span><br/>
+            <div class='container pt-10'>
+            <button type="button" class="btn btn-danger btn-lg"><a href='main.html' class='nav-link text-white'>PlayGame</a></button>
+            </div>
+
+
+        </div>
+</nav>
+    <div class="container">
+  <div class="btn-group-vertical">
+
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dem">About us</button><br/>
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#de">History</button><br/>
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#d">How to play</button>
+
+  </div>
+</div>
+<br/><br/>
+<div id=con class='container collapse bg-warning'>
+    <mark>MAIL:</mark> prasad.kanika24@gmail.com<br/>
+    <mark>PH:</mark> 9989122809
+</div>
+
+<div id=de class='container collapse '>
+    <h3 class='text-center'>HISTORY</h3>
+    <img src='https://kraftome.files.wordpress.com/2015/12/game-board.jpg' class='img-fluid' width='300' height='300'>
+    <div>Lambs and Tigers is a strategic, two-player board game originated in Tamil Nadu(Aadu Puli Aattam) and is also played in Karnataka(Huli gatta) and Andhra Pradesh(Puli Joodam or Puli - Meka).
+The game is asymmetric in that one player controls three tigers and the other player controls up to 15 goats.
+The tigers 'hunt' the goats while the goats attempt to block the tigers' movements.
+In ancient days, we can see the engravings of the game chart in every veranda.
+</div><br/>
+    <p><h3>Our game common known as:</h3></p>
+      <table class="table table-hover table-striped table-bordered">
+          <thead>
+              <th class='text-center'>Names</th><th>language</th>
+          </thead>
+          <tbody>
+              <tr><td>AadupuliAttam</td><td>Tamil</td></tr>
+              <tr><td>Puli-Meka</td><td>Telugu</td></tr>
+              <tr><td>Puli_Joodam</td><td>Telugu</td></tr>
+              <tr><td>Huli_Ghatta</td><td>Kanada</td></tr>
+              <tr><td>Adu_Huli</td><td>Kanada</td></tr>
+              <tr><td>Bagh_Chal</td><td>Hindi</td></tr>
+          </tbody>
+      </table>
+</div>
+<div id=dem class='container collapse '>
+    <h3>About us:</h3>
+    <table class='table table-dark '>
+        <thead><th class='text-center'>TEAM MEMBERS</th></thead>
+        <tbody>
+            <tr><td>K Guru prasad</td></tr>
+            <tr><td>B Rohith</td></tr>
+            <tr><td>R Charitha</td></tr>
+            <tr><td>R Jennifer</td></tr>
+        </tbody>
+    </table>
+    <div class="container mt-3 mb-20">
+        <h2>Game_of_threads</h2>
+        <p>is our team name </p>
+        <div class="media border p-3">
+            <img src="https://images.idgesg.net/images/article/2019/06/cso_anonymous_hooded_figure_amid_glitched_code_by_stevanovicigor_gettyimages-913469324_binary_by_valerybrozhinsky_gettyimages-1089997102_2400x1600-100800629-large.jpg" alt="k guru prasad" class="mr-3 mt-3 " style="width:60px;">
+            <div class="media-body">
+                <h4>Game_of_threads<br/><small><i>Created by engineering students</i></small></h4>
+                <p>Studing <mark>Computer Science and Engineering</mark> in <mark>RMK COLLEGE OF ENGINEERING AND TECHNOLOGY</mark>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class='container'>
+    <div id=d class="collapse ">
+        <h2>How to play</h2>
+        The game starts with three tigers, one placed at the apex, and the other two placed in the boxes next to it.
+    All goats start off the board.
+    The coins should be placed at the intersections of the board lines.
+    The player controlling the goat starts first by placing a goat coin at any free intersection points on the board.
+    Then it is the tiger's turn. One of the tigers is moved to its adjacent intersection point.
+    Moves alternate between players.
+    A tiger captures a goat by jumping over to an adjacent free position.
+    Goat coins can't move until all the 15 are placed on the board.
+    </div>
+    </div>
+    <section class="hero">
+        <div class="hero__slider owl-carousel">
+            <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="hero__text">
+                                <h2>Premuim quality Meat</h2>
+                                <a href="#" class="primary-btn">Fresh meat</a><br/><br/>
+                                <div style='border:2px solid black'>
+                                    <span class="icon_pin_alt" style='color:red'></span>
+                                    <button class="btn ">TIRUPATI</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="hero__text">
+                                <h2>Making your life healthier by each one bite!</h2>
+                                <a href="#" class="primary-btn">No preservatives</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
